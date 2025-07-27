@@ -18,39 +18,39 @@ TIP: začni podmínku od 90 bodů, ať se ti správně vyhodnotí podmínky ní�
 
 
 const studentName = "Jiří Vondra"
-const actualResult = 0
+const actualResult = 78
 let finalGrade
 const result = {
-    A:{
+    a:{
         max:100,
         min: 90,
     },
-    B:{
+    b:{
         max: 89,
         min: 85,
     },
-    C:{
+    c:{
         max: 84,
         min: 75,
     },
-    D:{
+    d:{
         max: 74,
         min: 70,
     },
-    F:{
+    f:{
         max: 69,
         min: 0
     },
 }
 
 
-if (actualResult >= result.A.min) {
+if (actualResult >= result.a.min) {
     finalGrade = 'A';
-} else if (actualResult >= result.B.min) {
+} else if (actualResult >= result.b.min) {
     finalGrade = 'B';
-} else if (actualResult >= result.C.min) {
+} else if (actualResult >= result.c.min) {
     finalGrade = 'C';
-} else if (actualResult >= result.D.min) {
+} else if (actualResult >= result.d.min) {
     finalGrade = 'D';
 } else {
     finalGrade = 'F';
