@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Cvičení ( ⌛10:00):
 Vytvořte program, který bude vyhodnocovat, jestli má student dostatek bodů k úspěšnému ukončení studia.
@@ -21,6 +22,13 @@ const minGradPoints =75;
 
 
 if (result >= minGradPoints) {
+=======
+const studentName = "Jiří Vondra";
+const result = 70;
+
+
+if (result >= 75) {
+>>>>>>> 5e73793896d39011b4da3b16ec4314fb09aad6cc
     console.log(`Student ${studentName} has ${result} point and past test!`);
 } else {
     console.error(`Student ${studentName} has ${result} point and do not pass in test!`);
