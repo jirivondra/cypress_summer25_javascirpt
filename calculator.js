@@ -1,38 +1,22 @@
-/*
-Cvičení - kalkulačka - funkce(⌛10:00):
-Vytvoř jednoduchou kalkulačku pomocí funkcí. Zvol function nebo constant function. Složka: javascript-learning/exercises, název souboru: calculator.js
-Vytvoř 4 funkce: add, subtract, multiply, divide, které budou mít 2 parametry (2 čísla)
-Funkce také zapíší výsledek do konzole.
-Vytvoř volání:
-add: 15+48
-subtract: 98-41
-multiply: 54*30
-divide: 88/6
+/* 
+Branch: hw5_calculator_oop
+GitHub: Javascript learning
+Můžeš použít kód z úkolu 4 (kalkulačka) do složky s úkolem 5.1
+Vytvoř třídu Calculator, která bude mít metody (není potřeba vytvářet konstruktor):
+Sečíst (add)
+Odečíst (subtract)
+Násobit (multiple)
+Dělit (divide)
+Metody budou mít vždy 2 parametry: a, b (nedávejte je do konstruktoru!)
+Metoda budou vracet výsledek (pomocí return).
+Následně vytvoř kód, který bude inicializovat (vytvoří objekt) Calculator.
+Bude vypisovat výsledky do konzole:
+Sečíst  14 + 41
+Odečíst 174 - 32
+Násobit  47 * 50
+Dělit 125 / 7
+(Objekt Calculator stačí jen jeden).
+
+Výsledek tvé práce napushuj do tvého repa a vytvoř Pull Request na Petra.
 */
 
-
-function add(a, b){
-    
-    console.log(a + b );
-    
-}
-function subtract(a, b){
-    
-    console.log(a - b );
-    
-}
-function multiply(a, b){
-    
-    console.log(a * b );
-    
-}
-function divide(a, b){
-    
-    console.log(a / b );
-    
-}
-
-add(15, 48);
-subtract(98, 41);
-multiply(54, 30);
-divide(88, 6);
