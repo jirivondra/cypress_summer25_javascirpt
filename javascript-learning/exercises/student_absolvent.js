@@ -21,7 +21,6 @@ const minGradPoints =75;
 
 
 if (result >= minGradPoints) {
-
 const studentName = "Jiří Vondra";
 const result = 70;
 
